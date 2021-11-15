@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(photo/nature.png);
+    background-size: cover;
+}
+.header{
+    margin: 0;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+ 
+}
+.logo img{
+    width: 55px;
+    align-items: center;
+    left: 5px;
+    margin-bottom: 0%;
+}
+.logo p{
+    margin-top: 0%;
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: unset;
+}
+.nav{
+    
+    display: block;
+    width: 45%;
+    margin: 15px auto;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    padding: 2px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline red;
+   
+}
+.nav li a.active{
+    color: rgb(0, 0, 0);
+    text-decoration: underline red;
+   
+}
+.search{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    display: inline-block; 
+}
+button{
+    border-radius: 20px;
+    cursor: pointer;
+}
+input{
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: transparent;
+    border-radius: 30px;
+}
+.conten{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+} 
+.conten h1{
+    margin-top: 170px;
+    font-size: 40px;
+    color: rgb(37, 36, 36);
+    text-shadow: gray;
+}
+.conten p{
+    font-size: 15px;
+}
+.icon{
+    float: right;
+    margin-top: 130px;
+}
+.icon img{
+    display:block;
+    width: 22px;
+    padding: 15px 0;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.rosh{
+    margin-top: 210px;
+    margin-left: 50px;
+}
+.rosh h1{
+    font-size: 55px;
+    color: transparent;
+    -webkit-text-stroke: 0.1px rgb(255, 0, 234);
+    background: url(photo/re.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+@keyframes back{
+    100%{
+    background-position: 2000px 0;
+  }
+
+}
